@@ -1,0 +1,3 @@
+runtime: shiny
+name: "dashboard_dengue_risk_map_20_oaxaca"
+output_dir: docs
