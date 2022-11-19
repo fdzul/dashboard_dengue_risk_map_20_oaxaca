@@ -276,3 +276,139 @@ hotspots_map(cve_ent = "20",
              static_map = FALSE)
 
 ```
+
+
+**Hotspots del Vector del Dengue**
+===================================== 
+Column {.tabset}
+------------------------------------
+
+
+### **<span style="color:#990000">Oaxaca</span>**
+```{r vector_hotspots_oaxaca, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20067_oaxaca_1419_zinb1,
+                                 locality = "Oaxaca de Juárez",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">Santa Cruz Xoxocotlán</span>**
+```{r vector_hotspots_santa_cruz_xoxocotlan, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20385_santa_cruz_xoxocotlan_1419_zinb1,
+                                 locality = "Santa Cruz Xoxocotlán",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">Santa Lucia del Camino</span>**
+```{r vector_hotspots_santa_lucia_camino, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20390_santa_lucia_camino1419_zinb1,
+                                 locality = "Santa Lucia del Camino",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">Matias Romero Avendaño</span>**
+```{r vector_hotspots_matias_romero, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20057_matias_romero_1419_zinb1,
+                                 locality = "Matias Romero Avendaño",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">Loma Bonita</span>**
+```{r vector_hotspots_loma_bonita, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20044_loma_bonita_1419_zinb1,
+                                 locality = "Loma Bonita",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+
+### **<span style="color:#990000">San Juan Bautista Tuxtepec</span>**
+```{r vector_hotspots_san_juan_bautista_tuxtepec, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20184_san_juan_bautista_tuxtepec_1419_zinb1,
+                                 locality = "San Juan Bautista Tuxtepec",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+
+### **<span style="color:#990000">Puerto Escondido</span>**
+```{r vector_hotspots_puerto_escondido, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20318_puerto_escondido_1419_zinb1,
+                                 locality = "Puerto Escondido",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">San Pedro Puchutla</span>**
+```{r vector_hotspots_san_pedro_pochutla, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20324_san_pedro_pochutla_1419_zinb1,
+                                 locality = "San Pedro Pochutla",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">Santa María Huatulco</span>**
+```{r vector_hotspots_santa_maria_huatulco, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20413_santa_maria_huatulco_1419_zinb1,
+                                 locality = "Santa Maria Huatulco",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">Crucesita</span>**
+```{r vector_hotspots_crucesita, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20413_crucesita1419_zinb1,
+                                 locality = "Crucesita",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">Santiago de Pinotepa Nacional</span>**
+```{r vector_hotspots_santiago_pinotepa_nacional, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20482_santiago_pinotepa_nacional_1419_zinb1,
+                                 locality = "Santiago de Pinotepa Nacional",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">Putla Villa de Guerrero</span>**
+```{r vector_hotspots_putla_villa, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20073_putla_villa_1419_zinb1,
+                                 locality = "Putla Villa de Guerrero",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### **<span style="color:#990000">Heroica Ciudad de Juchitan de Zaragoza</span>**
+```{r vector_hotspots_juchitan, dpi = 300, warning=FALSE, message=FALSE}
+deneggs::eggs_hotspots_intensity_map(spde_betas = betas_20043_juchitan_1419_zinb1,
+                                     years = 2022,
+                                     locality = "Heroica Ciudad de Juchitan de Zaragoza",
+                                     cve_ent = "20",
+                                     palette = rcartocolor::carto_pal,
+                                     name = "SunsetDark") 
+```
+
+### **<span style="color:#990000">San Juan Bautista Valle Nacional</span>**
+```{r vector_hotspots_san_juan_bautista_nacional, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20559_san_juan_bautista_nacional_1419_zinb1,
+                                 locality = "San Juan Bautista Valle Nacional",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
