@@ -7,6 +7,7 @@ output:
 output_dir: docs
 cover-image: images/cover.jpg
 ---
+
 ```{r setup}
 
 # Step 1. load the librarys ####
@@ -199,5 +200,79 @@ if(as.vector(Sys.info()["sysname"]) == "Darwin"){
     
 }
 
+
+```
+
+
+
+**Hotspots de la Transmisión de Dengue**
+===================================== 
+
+Column {.tabset}
+------------------------------------
+
+
+### **<span style="color:#990000">Oaxaca</span>**
+
+```{r hotspots_dengue_oaxaca}
+hotspots_map(cve_ent = "20",
+             locality = "Oaxaca de Juárez",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### **<span style="color:#990000">Santiago Pinotepa Nacional</span>**
+
+```{r hotspots_dengue_pinotepa}
+hotspots_map(cve_ent = "20",
+             locality = "Santiago Pinotepa Nacional",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### **<span style="color:#990000">Heroica Ciudad de Juchitán de Zaragoza</span>**
+```{r hotspots_dengue_juchitan}
+hotspots_map(cve_ent = "20",
+             locality = "Heroica Ciudad de Juchitán de Zaragoza",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### **<span style="color:#990000">Salina Cruz</span>**
+```{r hotspots_dengue_salina_cruz}
+hotspots_map(cve_ent = "20",
+             locality = "Salina Cruz",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### **<span style="color:#990000">Santo Domingo Tehuantepec</span>**
+```{r hotspots_dengue_santo_domingo}
+hotspots_map(cve_ent = "20",
+             locality = "Santo Domingo Tehuantepec",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### **<span style="color:#990000">San Juan Bautista Tuxtepec</span>**
+```{r hotspots_dengue_tuxtepec}
+hotspots_map(cve_ent = "20",
+             locality = "San Juan Bautista Tuxtepec",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### **<span style="color:#990000">Puerto Escondido</span>**
+```{r hotspots_dengue_puerto_escondido}
+hotspots_map(cve_ent = "20",
+             locality = "Puerto Escondido",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
 
 ```
